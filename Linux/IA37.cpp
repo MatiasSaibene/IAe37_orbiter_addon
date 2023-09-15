@@ -95,7 +95,7 @@ void IA37::DefineAnimations(void){
         (float)(1.0)
     );
 
-    static unsigned int RearLandingGearGrp[3] = {5, 6, 7};
+    static unsigned int RearLandingGearGrp[3] = {6, 7, 8};
     static MGROUP_ROTATE RearLandingGearRotate(
         0,
         RearLandingGearGrp,
@@ -111,7 +111,7 @@ void IA37::DefineAnimations(void){
     AddAnimationComponent(anim_landing_gear, 0, 1, &RearLandingGearRotate);
 
     //Control surfaces
-    static unsigned int RudderGrp[1] = {8};
+    static unsigned int RudderGrp[1] = {9};
     static MGROUP_ROTATE Rudder(
         0,
         RudderGrp,
@@ -123,7 +123,7 @@ void IA37::DefineAnimations(void){
     anim_rudder = CreateAnimation(0.5);
     AddAnimationComponent(anim_rudder, 0, 1, &Rudder);
 
-    static unsigned int ElevatorGrp[2] = {11,12};
+    static unsigned int ElevatorGrp[2] = {12,13};
     static MGROUP_ROTATE Elevator(
         0,
         ElevatorGrp,
@@ -135,7 +135,7 @@ void IA37::DefineAnimations(void){
     anim_elevator = CreateAnimation(0.5);
     AddAnimationComponent(anim_elevator, 0, 1, &Elevator);
 
-    static unsigned int ElevatorTrimGrp[2] = {11, 12};
+    static unsigned int ElevatorTrimGrp[2] = {12, 13};
     static MGROUP_ROTATE ElevatorTrim(
         0,
         ElevatorTrimGrp,
@@ -147,7 +147,7 @@ void IA37::DefineAnimations(void){
     anim_elevator_trim = CreateAnimation(0.5);
     AddAnimationComponent(anim_elevator_trim, 0, 1, &ElevatorTrim);
 
-    static unsigned int LeftAileronGrp[1] = {11};
+    static unsigned int LeftAileronGrp[1] = {12};
     static MGROUP_ROTATE LAileron(
         0,
         LeftAileronGrp,
@@ -159,7 +159,7 @@ void IA37::DefineAnimations(void){
     anim_laileron = CreateAnimation(0.5);
     AddAnimationComponent(anim_laileron, 0, 1, &LAileron);
 
-    static unsigned int RightAileronGrp[1] = {12};
+    static unsigned int RightAileronGrp[1] = {13};
     static MGROUP_ROTATE RAileron(
         0,
         RightAileronGrp,

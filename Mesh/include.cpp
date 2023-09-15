@@ -1,5 +1,5 @@
 // Auto generated code file.  Blender: 3.3.9  Blender Tools: (2, 1, 2)
-// Date: Fri Sep 15 01:27:44 2023
+// Date: Fri Sep 15 14:51:58 2023
 
 
 #include "orbitersdk.h"
@@ -24,14 +24,15 @@ namespace bl
     const UINT Front_landing_gearId = 2;
     const UINT Front_landing_gear_wheelId = 3;
     const UINT FuselageId = 4;
-    const UINT Rear_landing_gears_wheelsId = 5;
-    const UINT Rear_left_landing_gearId = 6;
-    const UINT Rear_right_landing_gearId = 7;
-    const UINT RudderId = 8;
-    const UINT TailId = 9;
-    const UINT WindowsId = 10;
-    const UINT hlaileronId = 11;
-    const UINT hraileronId = 12;
+    const UINT Fuselage_detailsId = 5;
+    const UINT Rear_landing_gears_wheelsId = 6;
+    const UINT Rear_left_landing_gearId = 7;
+    const UINT Rear_right_landing_gearId = 8;
+    const UINT RudderId = 9;
+    const UINT TailId = 10;
+    const UINT WindowsId = 11;
+    const UINT hlaileronId = 12;
+    const UINT hraileronId = 13;
     constexpr VECTOR3 Eng0_posLocation =     {-0.7349, 0.0060, -5.7835};
     constexpr VECTOR3 Eng1_posLocation =     {0.7351, 0.0060, -5.7835};
     constexpr VECTOR3 ElevatorLocation =     {0.0016, 0.0053, -5.3407};
