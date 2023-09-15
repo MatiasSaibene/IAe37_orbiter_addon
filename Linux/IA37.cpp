@@ -201,12 +201,12 @@ void IA37::clbkSetClassCaps(FILEHANDLE cfg){
     AddExhaust(th_main[0], 5, 0.5, exhaust_tex);
     AddExhaust(th_main[1], 5, 0.5, exhaust_tex);
     PARTICLESTREAMSPEC exhaust_main = {
-		0, 2.0, 20, 200, 0.05, 0.1, 8, 1.0, PARTICLESTREAMSPEC::EMISSIVE,
+		0, 0.5, 20, 200, 0.05, 0.1, 8, 1.0, PARTICLESTREAMSPEC::EMISSIVE,
 		PARTICLESTREAMSPEC::LVL_SQRT, 0, 1,
 		PARTICLESTREAMSPEC::ATM_PLOG, 1e-5, 0.1
 	};
-    AddExhaustStream (th_main[0], _V(0,0.3,-5), &exhaust_main);
-    AddExhaustStream (th_main[1], _V(0,0.3,-5), &exhaust_main);
+    AddExhaustStream (th_main[0], _V(-0.7349, 0.0060, -5.7835), &exhaust_main);
+    AddExhaustStream (th_main[1], _V(0.7351, 0.0060, -5.7835), &exhaust_main);
 
 
     //Add mesh

@@ -12,9 +12,9 @@ const double IA37_EMPTYMASS = 3300; //Empty mass in kg.
 
 const double IA37_FUELMASS = 1500;  //Fuel mass in kg.
 
-const double IA37_ISP = 25e4; //Fuel-specific impulse in m/s.
+const double IA37_ISP = 25e3; //Fuel-specific impulse in m/s.
 
-const double IA37_MAXMAINTH = 25e3; //Max main thrust.
+const double IA37_MAXMAINTH = 16e3; //Max main thrust.
 
 const double LANDING_GEAR_OPERATING_SPEED = 0.25;
 
